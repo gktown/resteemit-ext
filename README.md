@@ -1,15 +1,15 @@
-# Resteemit
-#### A Curation Webtool and Google Extension.
-Resteemit.com is a curation tool and mass curation experiment. Curators can use the web-based curation tool Resteemit.com to upvote and resteem articles to the feed, located on @resteemable. Users can [join the resteemable curation trail](streemian.com/profile/curationtrail/trailing/943) to gain curation rewards on posts that come through.<br>
+# Resteemit Chrome Extension
+#### The Steemit Curation Button
+Resteemit.com is a curation tool and mass curation experiment. Curators can use the google chrome extension to add a resteemit button to steemit.com. The Resteemit Button will instantly upvote and resteem articles to the feed, located on [@resteemable.](https://steemit.com/@resteemable) Users can [join the resteemable curation trail](streemian.com/profile/curationtrail/trailing/943) to gain curation rewards on posts that come through.<br>
 
-Given the motivation to build value for the team, we hope users will use this tool to upvote posts that will go on to gain many more votes, thus building value for the team. 
+Given the motivation to build value for the team, we hope users will use this tool to upvote posts that will go on to gain many more votes, thus building value for everyone. 
 
 #### Curation Bot Parameters:<br>
 * < 100 uses per day: 10% <<
 * 1000 uses per day: 2.5%
 * 10000 uses per day 1%
 
-### Google Chrome Extension
+### Install Chrome Extension
 1. Download this Package
 2. Unzip to a Directory
 3. Visit chrome://extensions (Menu -> Tools -> Extensions)
