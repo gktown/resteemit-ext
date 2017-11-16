@@ -30,7 +30,7 @@ And voted on by [Resteemable Trail](https://streemian.com/profile/curationtrail/
 ## Curating with Resteemit
 Curation bonuses supplement your income on steemit. By joining our curation trail you will get bonuses based on the volume and quality of posts that come through our system and based on your curation settings. So be sure to aim for quality content and everyone will succeed together.
 
-[Click Here to Join the Resteemit Curation Team](streemian.com/profile/curationtrail/trailing/943)
+[Click Here to Join the Resteemit Curation Team](streemian.com/profile/curationtrail/trailing/943)<br>
 No Streemian Account? [Make one here](streemian.com)
 
 ## Streemian Setup Templates:<br><br>
