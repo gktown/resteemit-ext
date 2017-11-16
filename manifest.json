@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Resteemit",
+  "description": "This extension allows Minnows to resteem and upvote posts from Steemit.",
+  "version": "1.0",
+  "browser_action": {
+  "default_icon": "img/logo.png"
+},
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["js/third-party/jquery.js",
+        "js/third-party/html5lightbox/html5lightbox.js",
+        "js/resteemit.js"
+        ],
+      "css":["css/resteemit.css"],
+      "permissions": [
+        "activeTab", "<all_urls>"
+      ],
+      "all_frames": true
+
+    }],
+  "web_accessible_resources": [
+    "img/*",
+    "js/*",
+    "https://s.ytimg.com/yts/jsbin/www-widgetapi-vflnzpyZ4/www-widgetapi.js"
+
+  ],
+  "permissions": [
+    "activeTab"]
+}
