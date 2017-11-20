@@ -10,17 +10,17 @@ findResteemButtons();
 
 function findResteemButtons()
 {
-    if($('.VotesAndComments__comments').length!==0) {
-        $('.VotesAndComments__comments').each(function (i) {
-            if($('.VotesAndComments').eq(i).find('.resteemit_img').length === 0)
-            $('.VotesAndComments__comments')[i].after(createLogo($('.VotesAndComments__comments').eq(i)["0"].childNodes["0"].href));
-        });
-    }
-    else
-    {
-        if($('.PostFull__responses ').length===1&&$('.resteemit_img').length===0)
-        {
-            $('.PostFull__responses ')[0].before(createLogo(window.location.href));
+    if(!window.location.href.match('/recent-replies')&&!window.location.href.match('/comments')) {
+        if ($('.VotesAndComments__comments').length !== 0) {
+            $('.VotesAndComments__comments').each(function (i) {
+                if ($('.VotesAndComments').eq(i).find('.resteemit_img').length === 0)
+                    $('.VotesAndComments__comments')[i].after(createLogo($('.VotesAndComments__comments').eq(i)["0"].childNodes["0"].href));
+            });
+        }
+        else {
+            if ($('.PostFull__responses ').length === 1 && $('.resteemit_img').length === 0) {
+                $('.PostFull__responses ')[0].before(createLogo(window.location.href));
+            }
         }
     }
 }
