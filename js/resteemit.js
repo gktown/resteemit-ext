@@ -31,14 +31,9 @@ function createLogo(href)
     var a=document.createElement('a');
     a.href='http://re'+href.replace('https://','').split('#')[0];
     a.target="_blank";
-    //a.className="html5lightbox";
     var img = document.createElement('img');
     img.className = 'resteemit_img';
     img.src = chrome.extension.getURL("/img/logo.png");
     a.appendChild(img);
     return a;
 }
-
-$('.html5lightbox').click(function(){
-    setTimeout(function(){$(".html5lightbox").html5lightbox();},2000);
-});
