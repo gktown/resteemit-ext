@@ -11,7 +11,6 @@
     {
       "matches": ["*://*/*"],
       "js": ["js/third-party/jquery.js",
-        "js/third-party/html5lightbox/html5lightbox.js",
         "js/resteemit.js"
         ],
       "css":["css/resteemit.css"],
